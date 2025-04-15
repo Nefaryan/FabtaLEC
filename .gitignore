@@ -1,0 +1,35 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Spring Boot specific
+*.log
+*.sql
+*.h2.db
+*.db
+
+# IntelliJ IDEA specific
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Maven
+target/
+*.log
+
+# Gradle
+.gradle/
+build/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Local environment configurations
+.env
+
+# Docker
+docker-compose.override.yml
