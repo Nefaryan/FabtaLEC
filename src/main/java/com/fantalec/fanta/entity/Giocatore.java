@@ -20,9 +20,12 @@ public class Giocatore {
     private UUID id;
 
     private String nome;
-    private String team;
     private String ruolo;
     private BigDecimal costo;
+
+    @ManyToOne
+    @JoinColumn(name = "team_")
+    private Team team;
 
 
     @Override
